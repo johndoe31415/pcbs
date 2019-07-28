@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: PCB1.GBR   18.07.2019  19:14:48
+Gerber File Extension Report For: PCB1.GBR   28.07.2019  18:08:54
 ------------------------------------------------------------------------------------------
 
 
@@ -14,6 +14,7 @@ Layer Extension     Layer Description
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
 .Outline            Outline                                 
 .Dimensions         Dimensions                              
 ------------------------------------------------------------------------------------------
