@@ -13,5 +13,5 @@ projname = os.path.basename(dirname.rstrip("/")).lower()
 with zipfile.ZipFile("%s.zip" % (projname), "w", compression = zipfile.ZIP_DEFLATED) as zfile:
 	for extension in [ "GTL", "GTS", "GTO", "GBL", "GBS", "GBO" ]:
 		zfile.write("%s/files/Gerber/PCB1.%s" % (dirname, extension), arcname = "%s.%s" % (projname, extension))
-	zfile.write("%s/files/Gerber/PCB1.Outline" % (dirname), arcname = "%s.GML" % (projname))
+	zfile.write("%s/files/Gerber/PCB1.Outline" % (dirname), arcname = "%s.GKO" % (projname))
 	zfile.write("%s/files/NC Drill/PCB1.TXT" % (dirname), arcname = "%s.TXT" % (projname))
