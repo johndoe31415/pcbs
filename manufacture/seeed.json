@@ -1,0 +1,26 @@
+{
+	"name":						"Seeed Studio Fusion PCB Prototype",
+	"uri":						"https://www.seeedstudio.com/fusion_pcb.html",
+	"layers":					2,
+	"copper_oz":				1,
+	"pcb_material":				"FR4 TG130",
+	"size_mm":					[ 100, 100 ],
+	"pcb_thickness_mm":			1.6,
+	"min_soldermask_dam_mm":	0.4,
+	"min_drill_size_mm":		0.3,
+	"min_trace_mil":			6,
+	"prices": [
+		{
+			"qty":		10,
+			"price":	17.10
+		},
+		{
+			"qty":		20,
+			"price":	25.00
+		},
+		{
+			"qty":		30,
+			"price":	32.90
+		}
+	]
+}

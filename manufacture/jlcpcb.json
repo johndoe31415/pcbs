@@ -1,0 +1,29 @@
+{
+	"name":						"JLC PCB",
+	"uri":						"https://jlcpcb.com",
+	"layers":					2,
+	"copper_oz":				1,
+	"pcb_material":				"FR4 TG130-140",
+	"size_mm":					[ 100, 100 ],
+	"pcb_thickness_mm":			1.6,
+	"min_drill_size_mm":		0.2,
+	"min_trace_mil":			5,
+	"prices": [
+		{
+			"qty":		5,
+			"price":	6.95
+		},
+		{
+			"qty":		10,
+			"price":	10.88
+		},
+		{
+			"qty":		20,
+			"price":	24.55
+		},
+		{
+			"qty":		30,
+			"price":	33.19
+		}
+	]
+}

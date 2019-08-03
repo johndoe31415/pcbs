@@ -1,0 +1,30 @@
+{
+	"name":						"PCBWay",
+	"uri":						"https://www.pcbway.com",
+	"layers":					2,
+	"copper_oz":				1,
+	"pcb_material":				"FR4 TG130-140",
+	"size_mm":					[ 100, 100 ],
+	"pcb_thickness_mm":			1.6,
+	"min_soldermask_dam_mm":	0.4,
+	"min_drill_size_mm":		0.3,
+	"min_trace_mil":			6,
+	"prices": [
+		{
+			"qty":		5,
+			"price":	13
+		},
+		{
+			"qty":		10,
+			"price":	16
+		},
+		{
+			"qty":		20,
+			"price":	61
+		},
+		{
+			"qty":		30,
+			"price":	77
+		}
+	]
+}
