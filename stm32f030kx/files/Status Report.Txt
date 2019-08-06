@@ -1,6 +1,6 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 18:42:57 On 06.08.2019
+Start Output Generation At 20:05:57 On 06.08.2019
 
 Output: NC Drill
 Type  : NC Drill
@@ -13,4 +13,4 @@ From  : PCB Document [PCB1.CMPcbDoc]
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 18:42:57 On 06.08.2019
+Finished Output Generation At 20:05:58 On 06.08.2019
