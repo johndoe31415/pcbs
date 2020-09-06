@@ -10,3 +10,6 @@
     pads there (possibly some GND pads as well, could be useful)
   * Silkprint and schematic are wrong for the main MCU. It's not the
     STM32F103xC, but the STM32F103Cx. I'm not sure how I could miss that.
+  * More clearly label the top GND and Vcc rows (e.g., by having silkprint on top)
+  * Duplicate the Vin Vcc GND pads so that it can be daisy-chained
+  * Add GND/Vcc debugging pad somewhere
