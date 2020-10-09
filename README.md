@@ -21,6 +21,9 @@ to Gerber/Drill files for manufacture.
     74HC4050 input level shifter. The idea is that you only populate what you need
     and just leave everything off that you don't. Created as a 100x100mm so that it
     fits Seeed Studio or other low-cost prototyping manufacturers.
+  * softoff: A soft-off circuit using CD4011 for extremely low off-power
+    consumption and an added ATtiny13 microcontroller to allow for features
+    such as auto-off after a specific time.
 
 ## Useful links
   * [Circuitmaker to Seeed Studio](http://support.seeedstudio.com/knowledgebase/articles/1187692-how-to-generate-gerber-files-from-circuitmaker)
