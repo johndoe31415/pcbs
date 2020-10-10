@@ -23,7 +23,11 @@ to Gerber/Drill files for manufacture.
     fits Seeed Studio or other low-cost prototyping manufacturers.
   * softoff: A soft-off circuit using CD4011 for extremely low off-power
     consumption and an added ATtiny13 microcontroller to allow for features
-    such as auto-off after a specific time.
+    such as auto-off after a specific time. A simulation of the circuit is
+    [available here](https://circuitverse.org/simulator/embed/softoff). It
+    basically is an RS flipflop that drives a P-Fet and avoids invalid states
+    (i.e., even when nR and nS are asserted at the same time, the behavior of the
+    circuit is well-defined).
 
 ## Useful links
   * [Circuitmaker to Seeed Studio](http://support.seeedstudio.com/knowledgebase/articles/1187692-how-to-generate-gerber-files-from-circuitmaker)
